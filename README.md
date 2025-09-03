@@ -1,29 +1,47 @@
 # Stress Level Dataset — Task 1 (Data Cleaning)
 
 ## Objective
-Clean and preprocess the raw dataset by checking nulls, removing duplicates, standardizing text,
-fixing data types, and renaming columns. Output a clean CSV ready for analysis or modeling.
+The goal of this task was to **clean and preprocess the raw Stress Level Dataset** so that it’s ready for further analysis or modeling.
 
-## Files
-- `StressLevelDataset.csv` — raw dataset
-- `StressLevelDataset_Cleaned.csv` — cleaned dataset (generated)
-- `data_cleaning.ipynb` — notebook with all steps
+---
 
-## Summary of Results
-- Initial → Final Shape: preserved (no rows removed, unless duplicates existed)
-- Missing values: none in the provided file; generic handling code included
-- Duplicates: none found
-- Text standardized to lowercase & stripped
-- Types coerced where possible (numeric/datetime)
-- Columns renamed to snake_case
+## 🛠️ Steps Performed  
+1. **Loaded the raw dataset** (`StressLevelDataset.csv`).  
+2. **Checked for missing values** → none were found.  
+3. **Removed duplicate rows** → none were present.  
+4. **Standardized text columns** → converted to lowercase, removed spaces.  
+5. **Fixed data types** → converted numeric/date columns where possible.  
+6. **Renamed columns** → used `snake_case` (e.g., `Sleep Quality → sleep_quality`).  
+7. **Saved cleaned dataset** as `StressLevelDataset_Cleaned.csv`.  
 
-## How to Run Locally
-1. Install **Anaconda** (recommended) or **Python 3.10+**.
-2. Open **Jupyter Notebook** or **JupyterLab**.
-3. Put the three files above in the same folder.
-4. Open `data_cleaning.ipynb` and run all cells.
-5. The cleaned file will be saved as `StressLevelDataset_Cleaned.csv`.
+---
 
-## Notes
-- Adjust missing value strategy as needed for your use case.
-- Keep this repository focused on Task 1 only, as per Skillytixs instructions.
+## 📊 Results  
+- **Initial Shape:** 1100 rows × 21 columns  
+- **Final Shape:** 1100 rows × 21 columns  
+- **Missing Values:** 0  
+- **Duplicates Removed:** 0  
+- **Cleaned File:** ✅ `StressLevelDataset_Cleaned.csv`  
+
+---
+
+## 📂 Files in this Repository  
+- 📄 `StressLevelDataset.csv` → Raw dataset  
+- 🧹 `StressLevelDataset_Cleaned.csv` → Cleaned dataset  
+- 📓 `data_cleaning.ipynb` → Notebook with all cleaning steps  
+- 📝 `README.md` → This summary  
+
+---
+
+## 🚀 How to Run  
+1. Install **Anaconda** (recommended) or **Python 3.10+**.  
+2. Open **Jupyter Notebook**.  
+3. Place all files in the same folder.  
+4. Open and run `data_cleaning.ipynb`.  
+5. The cleaned dataset will be saved automatically.  
+
+---
+
+## ✅ Conclusion  
+The dataset is now **clean, consistent, and analysis-ready**.  
+This task demonstrates basic **data preprocessing skills** that are essential for analytics projects.  
