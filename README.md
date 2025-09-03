@@ -1,4 +1,4 @@
-# Stress Level Dataset — Task 1 (Data Cleaning)
+# Stress Level Dataset — Task 1 (Data Cleaning).
 
 ## Objective
 The goal of this task was to **clean and preprocess the raw Stress Level Dataset** so that it’s ready for further analysis or modeling.
